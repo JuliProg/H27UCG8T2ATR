@@ -7,8 +7,8 @@
     <ProjectGuid>{3E31FBFB-66A4-46D2-B211-1360CF8DE28F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MT29F16GA08ABABA3W</RootNamespace>
-    <AssemblyName>MT29F16GA08ABABA3W</AssemblyName>
+    <RootNamespace>H27UCG8T2ATR</RootNamespace>
+    <AssemblyName>H27UCG8T2ATR</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NAND_Prog">
-      <HintPath>D:\a\MT29F16GA08ABABA3W\MT29F16GA08ABABA3W\references\NAND_Prog.exe</HintPath>
+      <HintPath>..\..\..\NAND_Prog\NAND_Prog\bin\Debug\NAND_Prog.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
