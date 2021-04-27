@@ -1,16 +1,17 @@
-![Create new chip](https://github.com/JuliProg/MT29F16GA08ABABA3W/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
-![ChipUpdate](https://github.com/JuliProg/MT29F16GA08ABABA3W/workflows/ChipUpdate/badge.svg)
+![Create new chip](https://github.com/JuliProg/H27UCG8T2ATR/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
+![ChipUpdate](https://github.com/JuliProg/H27UCG8T2ATR/workflows/ChipUpdate/badge.svg)
 # Join the development of the project ([list of tasks](https://github.com/users/JuliProg/projects/1))
 
 
-# MT29F16GA08ABABA3W
-Implementation of the MT29F16GA08ABABA3W chip for the JuliProg programmer
+# H27UCG8T2ATR
+Implementation of the H27UCG8T2ATR chip for the JuliProg programmer
 
 Dependency injection, DI based on MEF framework is used to connect the chip to the programmer.
 
 <section class = "listing">
 
-# Chip parameters
+# Chip parameters
+
 ```c#
 
 
@@ -42,7 +43,8 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
             myChip.vcc = Vcc.v3_3;             // supply voltage
             myChip.EccBits = 20;
 ```
-# Chip operations
+# Chip operations
+
 ```c#
 
 
@@ -54,7 +56,8 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
                    Operations("PageProgram_80h_10h");
 
 ```
-# Chip registers (optional)
+# Chip registers (optional)
+
 ```c#
 
 
