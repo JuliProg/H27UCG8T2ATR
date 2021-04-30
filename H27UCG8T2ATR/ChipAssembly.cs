@@ -24,7 +24,7 @@ namespace H27UCG8T2ATR
     public class ChipAssembly
     {
         [Export("Chip")]
-        ChipPrototype myChip = new ChipPrototype();
+        ChipPrototype myChip = new ChipPrototype_v1();
 
 
 
@@ -56,7 +56,8 @@ namespace H27UCG8T2ATR
             myChip.colAdrCycles = 2;           // cycles for column addressing
             myChip.rowAdrCycles = 3;           // cycles for row addressing 
             myChip.vcc = Vcc.v3_3;             // supply voltage
-        //    (myChip as ChipPrototype_v1).EccBits = 20;                // required Ecc bits for each 512 bytes
+            (myChip as ChipPrototype_v1).EccBits = 20;                // required Ecc bits for each 512 bytes
+          
             #endregion
 
 
