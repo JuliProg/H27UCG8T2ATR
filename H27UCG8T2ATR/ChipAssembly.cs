@@ -56,7 +56,7 @@ namespace H27UCG8T2ATR
             myChip.colAdrCycles = 2;           // cycles for column addressing
             myChip.rowAdrCycles = 3;           // cycles for row addressing 
             myChip.vcc = Vcc.v3_3;             // supply voltage
-            (myChip as ChipPrototype_v1).EccBits = 20;                // required Ecc bits for each 512 bytes
+        //    (myChip as ChipPrototype_v1).EccBits = 20;                // required Ecc bits for each 512 bytes
             #endregion
 
 
