@@ -13,9 +13,14 @@ namespace H27UCG8T2ATR
 
     for automatically include <some code> in the READMY.md file in the repository
     */
-   
-    
-   
+
+    public class ChipPrototype_v1 : ChipPrototype
+    {
+        public int EccBits;
+    }
+
+
+
     public class ChipAssembly
     {
         [Export("Chip")]
@@ -51,7 +56,7 @@ namespace H27UCG8T2ATR
             myChip.colAdrCycles = 2;           // cycles for column addressing
             myChip.rowAdrCycles = 3;           // cycles for row addressing 
             myChip.vcc = Vcc.v3_3;             // supply voltage
-           // myChip.EccBits = 20;
+            (myChip as ChipPrototype_v1).EccBits = 20;                // required Ecc bits for each 512 bytes
             #endregion
 
 
